@@ -13,8 +13,8 @@ public class GameOfLife {
 		//// (Run one test at a time).
 		// test1(fileName);
 		// test2(fileName);
-		// test3(fileName, 3);
-		play(fileName);
+		test3(fileName, 3);
+		// play(fileName);
 	}
 	
 	// Reads the data file and prints the initial board.
@@ -189,7 +189,7 @@ public class GameOfLife {
             // Iterate over the columns of the current row
             for (int j = 1; j < arr[i].length-1; j++) {
                 // Use printf to print each element with formatting
-                System.out.printf("%4d", arr[i][j]); // Adjust the format specifier and width as needed
+                System.out.printf("%3d", arr[i][j]); // Adjust the format specifier and width as needed
             }
             // Print a newline after each row
             System.out.println();
